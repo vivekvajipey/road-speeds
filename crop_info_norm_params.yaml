@@ -1,0 +1,47 @@
+data/crop_info_full_4.csv:
+  elevation_mean:
+    mean: 127.71655700524816
+    std: 106.61362083509698
+  elevation_std:
+    mean: 5.889580177758678
+    std: 3.0139673825495135
+  pop_density:
+    mean: 4.323142675681345
+    std: 1.9130656165482598
+  speed_mean:
+    mean: 43.063274065979904
+    std: 15.049940778611862
+  speed_std:
+    mean: 8.890641203201676
+    std: 3.884934070559041
+data/crop_info_full_4_baselines.csv:
+  elevation_mean:
+    mean: 127.71655700524816
+    std: 106.61362083509698
+  elevation_std:
+    mean: 5.889580177758678
+    std: 3.0139673825495135
+  pop_density:
+    mean: 4.323142675681345
+    std: 1.9130656165482598
+  speed_mean:
+    mean: 43.063274065979904
+    std: 15.049940778611862
+  speed_std:
+    mean: 8.890641203201676
+    std: 3.884934070559041
+  # elevation_mean:
+  #   mean: 113.89230295969952
+  #   std: 101.06305981382263
+  # elevation_std:
+  #   mean: 5.79738489254039
+  #   std: 3.14513371615622
+  # pop_density:
+  #   mean: 3.8367567868864336
+  #   std: 2.06524181913003
+  # speed_mean:
+  #   mean: 44.23361737757042
+  #   std: 14.528526998586699
+  # speed_std:
+  #   mean: 9.254942212122135
+  #   std: 3.7751347051501147
