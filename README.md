@@ -88,7 +88,7 @@ Generate the crops by running:
 python generate_crops.py
 
 
-# Experiment Running Instructions for CS325B Road Speeds project
+# Experiment Running
 
 ## Step 0: Ensure proper environment
 1. Before proceeding with running `main.sh`, ensure that the environment is set up as detailed in `installation_requirements.txt` and `environment_setup.txt`.
