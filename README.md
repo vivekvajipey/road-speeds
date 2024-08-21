@@ -78,7 +78,7 @@ PROJECT_ROOT
 │\
 ├── [other project files and directories]\
 │\
-└── generate_crops.py\
+└── generate_crops.py
 
 
 The `GPStracks_forDLcourse.csv` is found in the bucket associated with the project data and must be added to the data directory.
@@ -103,35 +103,35 @@ chmod +x main.sh
 
 Here is the directory structure expected by `seq_nn_train.py`:
 
-PROJECT_ROOT
-│
-├── data
-│ ├── crop_info_full_4.csv # The main dataset CSV file
-│ ├── [Other data files]
-│
-├── dataset
-│ ├── init.py
-│ ├── road_mean_std_dataset.py # Contains RoadMeanSTDDataset class
-│ ├── road_mean_std_seq_dataset.py # Contains RoadMeanSTDSeqDataset class
-│ ├── [Other dataset files]
-│
-├── models
-│ ├── init.py
-│ ├── resnet_concat_rnn.py # Contains the ResNetConcatRNN model
-│ ├── [Other model files]
-│
-├── results
-│ ├── models # Directory to save model outputs
-│ │ ├── [Saved model files will be placed here]
-│
-├── transforms.py # Contains data transformations
-│
-├── util.py # Utility functions for the model
-│
-├── crop_info_norm_params.yaml # Normalization parameters
-│
-├── t_cols_norm.yaml # Names of normalized tabular feature columns
-│
-├── training_script.py # The main training script
-│
+PROJECT_ROOT\
+│\
+├── data\
+│ ├── crop_info_full_4.csv # The main dataset CSV file\
+│ ├── [Other data files]\
+│\
+├── dataset\
+│ ├── init.py\
+│ ├── road_mean_std_dataset.py # Contains RoadMeanSTDDataset class\
+│ ├── road_mean_std_seq_dataset.py # Contains RoadMeanSTDSeqDataset class\
+│ ├── [Other dataset files]\
+│\
+├── models\
+│ ├── init.py\
+│ ├── resnet_concat_rnn.py # Contains the ResNetConcatRNN model\
+│ ├── [Other model files]\
+│\
+├── results\
+│ ├── models # Directory to save model outputs\
+│ │ ├── [Saved model files will be placed here]\
+│\
+├── transforms.py # Contains data transformations\
+│\
+├── util.py # Utility functions for the model\
+│\
+├── crop_info_norm_params.yaml # Normalization parameters\
+│\
+├── t_cols_norm.yaml # Names of normalized tabular feature columns\
+│\
+├── training_script.py # The main training script\
+│\
 └── [Other project files and directories]
