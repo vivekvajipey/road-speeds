@@ -55,30 +55,30 @@ pip list
 In order to generate the 224 x 224 crops of the road segments (which are used as input for the models), the `generate_crops.py` script needs to be run. `generate_crops.py` expects the following directory structure:
 
 PROJECT_ROOT
-│
-├── data
-│ ├── GPStracks_forDLcourse.csv # GPS tracks CSV file
-│ ├── img_id_map.json # Generated JSON file (output by script)
-│ ├── crop_info_base.csv # Generated crops info CSV file (output by script)
-│ │
-│ ├── sat_tifs # Directory for TIFF non-sequence images
-│ │ ├── [various TIFF files]
-│ │
-│ ├── sat_tifs_2 # Directory for TIFF sequence images
-│ │ ├── batch2
-│ │ ├── R1_[various TIFF files]
-│ │ ├── R2_[various TIFF files]
-│ │ └── R3_[various TIFF files]
-│ │
-│ ├── rgb_crops_mo_4 # Directory for RGB image crops (output by script)
-│ │ ├── [generated RGB crop files]
-│ │
-│ └── nir_crops_mo_4 # Directory for NIR image crops (output by script)
-│ ├── [generated NIR crop files]
-│
-├── [other project files and directories]
-│
-└── generate_crops.py
+│\
+├── data\
+│ ├── GPStracks_forDLcourse.csv # GPS tracks CSV file\
+│ ├── img_id_map.json # Generated JSON file (output by script)\
+│ ├── crop_info_base.csv # Generated crops info CSV file (output by script)\
+│ │\
+│ ├── sat_tifs # Directory for TIFF non-sequence images\
+│ │ ├── [various TIFF files]\
+│ │\
+│ ├── sat_tifs_2 # Directory for TIFF sequence images\
+│ │ ├── batch2\
+│ │ ├── R1_[various TIFF files]\
+│ │ ├── R2_[various TIFF files]\
+│ │ └── R3_[various TIFF files]\
+│ │\
+│ ├── rgb_crops_mo_4 # Directory for RGB image crops (output by script)\
+│ │ ├── [generated RGB crop files]\
+│ │\
+│ └── nir_crops_mo_4 # Directory for NIR image crops (output by script)\
+│ ├── [generated NIR crop files]\
+│\
+├── [other project files and directories]\
+│\
+└── generate_crops.py\
 
 
 The `GPStracks_forDLcourse.csv` is found in the bucket associated with the project data and must be added to the data directory.
