@@ -334,8 +334,8 @@ if __name__ == '__main__':
     parser.add_argument('--hidden_dim', type=int, default=64)
     
     parser.add_argument('--norm_params_file', type=str, default='crop_info_norm_params.yaml')
-    parser.add_argument('--tabular_cols_file', type=str, default='t_cols_norm.yaml')
-    parser.add_argument('--csv_path', type=str, default='data/crop_info_full_4.csv')
+    parser.add_argument('--tabular_cols_file', type=str, default='t_cols.yaml')
+    parser.add_argument('--csv_path', type=str, default='data/crop_info_base_4.csv')
     parser.add_argument('--image_cols', nargs='+', default=['rgb_path', 'nir_path'])
     
     parser.add_argument('--model_save_dir', type=str, default='results/models')

@@ -14,6 +14,22 @@ data/crop_info_full_4.csv:
   speed_std:
     mean: 8.890641203201676
     std: 3.884934070559041
+data/crop_info_base_4.csv:
+  elevation_mean:
+    mean: 127.71655700524816
+    std: 106.61362083509698
+  elevation_std:
+    mean: 5.889580177758678
+    std: 3.0139673825495135
+  pop_density:
+    mean: 4.323142675681345
+    std: 1.9130656165482598
+  speed_mean:
+    mean: 43.063274065979904
+    std: 15.049940778611862
+  speed_std:
+    mean: 8.890641203201676
+    std: 3.884934070559041
 data/crop_info_full_4_baselines.csv:
   elevation_mean:
     mean: 127.71655700524816
